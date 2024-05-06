@@ -22,9 +22,9 @@ export function AppBar() {
        })
     },[])
 
-    return <div className="rounded-lg bg-white  p-4 border-2 ">
+    return <div className="rounded-lg bg-gray-200  p-4 border-2  ">
         <div className="flex justify-between items-center">
-            <div className="text-2xl font-bold ms-2">DNS Master</div>
+            <div className="text-2xl font-bold ms-2">DNS Hub</div>
             <div className="flex items-center">
                 <div className="text-sm mx-3">Hello, {username}</div>
                 <div>
