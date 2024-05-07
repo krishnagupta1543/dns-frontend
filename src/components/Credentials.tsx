@@ -37,7 +37,7 @@ function SignInModel(props: any) {
 
         <InputBox onChange={(e: any) => {
           setPassword(e.target.value)
-        }} placeholder="ex : JaneDoe@example.com" label={"Password"} />
+        }} placeholder="ex : P@ssw0rd" label={"Password"} />
 
 
         <div className="pt-4 pb-2">
