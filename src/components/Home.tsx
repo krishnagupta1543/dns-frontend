@@ -11,22 +11,11 @@ export function Home() {
                     Streamline Your DNS Management with <i className="text-blue-500"> <b>DNS Hub</b></i>
                     </div>
                     <div className="text-xl lg:text-2xl">
-                        DNS Manager Hub provides a comprehensive
+                        DNS Hub provides a comprehensive
                         interface for effortless management of DNS
                         records on AWS Route 53.
                     </div>
                 </div>
-                {/* <div className="space-y-2 text-lg text-white">
-                    <h3 className="font-semibold">DNS Manager Hub prioritizes security, offering:</h3>
-                    <ul className="list-disc ms-6">
-                        <li>Advanced Dashboard with Real-time Analytics</li>
-                        <li>Intuitive DNS Record Configuration Interface</li>
-                        <li>Seamless AWS Route 53 Integration</li>
-                        <li>Robust Multi-factor Authentication and Authorization Mechanisms</li>
-                    </ul>
-                </div> */}
-                
-
             </div>
             <div className="lg:h-3/5">
                 <div>
