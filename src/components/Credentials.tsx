@@ -32,12 +32,12 @@ function SignInModel(props: any) {
         <SubHeading label={"Enter your credentials to access your account"} />
         <InputBox onChange={(e: any) => {
           setEmail(e.target.value)
-        }} placeholder="ex : krishna_gupta" label={"Email"} />
+        }} placeholder="ex : Jane_Doe" label={"Email"} />
 
 
         <InputBox onChange={(e: any) => {
           setPassword(e.target.value)
-        }} placeholder="ex : krishna@example.com" label={"Password"} />
+        }} placeholder="ex : JaneDoe@example.com" label={"Password"} />
 
 
         <div className="pt-4 pb-2">
@@ -102,15 +102,15 @@ function SignUpModel(props: any) {
 
         <InputBox onChange={(e: any) => {
           setUsername(e.target.value)
-        }} placeholder="ex : krishna_gupta" label={"Username"} />
+        }} placeholder="ex : Jane_Doe" label={"Username"} />
 
         <InputBox onChange={(e: any) => {
           setEmail(e.target.value)
-        }} placeholder="ex : krishna@example.com" label={"Email"} />
+        }} placeholder="ex : JaneDoe@example.com" label={"Email"} />
 
         <InputBox onChange={(e: any) => {
           setPassword(e.target.value)
-        }} placeholder="ex : p@ssw0rd" label={"Password"} />
+        }} placeholder="ex : passw0rd" label={"Password"} />
 
         <InputBox onChange={(e: any) => {
           setAwsKey(e.target.value)
