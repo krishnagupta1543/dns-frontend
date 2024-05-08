@@ -32,7 +32,7 @@ function SignInModel(props: any) {
         <SubHeading label={"Enter your credentials to access your account"} />
         <InputBox onChange={(e: any) => {
           setEmail(e.target.value)
-        }} placeholder="ex : Jane_Doe" label={"Email"} />
+        }} placeholder="ex : Jane_Doe@example.com" label={"Email"} />
 
 
         <InputBox onChange={(e: any) => {
